@@ -1,0 +1,285 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+ 
+.container{
+    width: 956px;
+    margin: auto;
+    display: flex;
+}
+
+ 
+/* ---header--- */
+header{
+    height: 72px;
+    background-color: #fff;
+}
+
+.height-72px{
+    height: 72px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tow{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.sign-in{
+    border: 1px solid #E0E0E0;
+    color: #1d1d1d;
+    padding: 14px 20px ;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.background{
+    height: 365px;
+    background: url(image/bagraund\ image.png);
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+}
+
+.align-items{
+    align-items: center;
+    height: 365px;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    width: 389px;
+    height: 204px;
+    background: #FFFFFF;
+    text-align: center;
+}
+
+.inner{
+    width: 313px;
+}
+
+.inner h1{
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.tow-2{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.inner p{
+    margin: 0;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.link{
+    width: 100px;
+    height: 32px;
+    background-color:#262626;
+    color: #fff;
+    border-radius: 30px;
+}
+/* ---header--- */
+
+.fiter{
+    height: 80px;
+    border-bottom:#75757533 1px solid;
+    background-color: #fff;
+}
+
+.menu{
+    height: 80px;
+    align-items: center;
+}
+
+.gren-hover{
+    color: #1d1d1d;
+    margin-right: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.gren-hover:hover{
+   color: #327430;
+}
+
+/* ---mein--- */
+.food{
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.title{
+    height: 122px;
+}
+
+.title p{
+    margin: 54px 0px 32px 0px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap:12px ;
+    row-gap: 49px ;
+}
+
+.thumbnail{
+    display: flex;
+    justify-content: space-between;
+    width: 470px;
+    height: 160px;
+    border:  #75757533 1px solid;
+}
+
+.caption{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 58px;
+    margin: 16px 0px 16px 16px;
+}
+
+.tow-3{
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-price{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1d1d1d;
+}
+
+.title-special{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #626262;
+}
+
+.special-price{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+/* ---main--- */
+
+
+/*--- footer--- */
+footer{
+    height: 552px;
+    background: #262626;
+}
+
+.footer-section{
+    flex-direction: column;
+}
+
+.white-logo div{
+    height: 116px;
+    display: flex;
+    align-items: center;
+}
+
+select{
+    background: #3B3B3B;
+    color: #fff;
+    display: inline-block;
+    width: 227px;
+    height: 40px;
+    border: none;
+}
+
+.three{
+    display: flex;
+  
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    height: 220px;
+    width: 318px;
+    margin-top: 32px;
+}
+
+.desc a{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 23px;
+}
+
+.marg-17px{
+    margin: 32px 0px 17px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.marg-17px b{
+    color: #327430;
+}
+
+.badge{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.info{
+    height: 60px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info div{
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+@media(max-width:)
